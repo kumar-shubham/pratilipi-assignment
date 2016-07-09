@@ -1,0 +1,39 @@
+.font-size26{
+  font-size: 26px !important;
+}
+.card-booking{
+      margin-bottom: 20px;
+      padding: 25px 25px 25px;
+      min-height: 312px;
+      width: 100%;
+      background: #2d67b2;
+      position: relative;
+      max-width: 1000px;
+      margin: 0 auto;
+      border-radius: 10px 10px 10px 10px;
+}
+.large-input{
+      width: 450px !important;
+}
+.large-input-height{
+    height: 47px;
+}
+.datepicker-input{
+  width: 210px;
+    padding: 0px 0px 0px 11px;
+}
+.date-div{
+  margin-left: -13px;
+    margin-top: 30px;
+}
+.btn-search{
+      display: table;
+      margin: 0 auto;
+      margin-left: 715px;
+}
+.heading-main{
+  color: #fff;
+  line-height: 1.5 !important;
+  font-size: 30px;
+
+}
