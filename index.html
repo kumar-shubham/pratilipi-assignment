@@ -21,7 +21,9 @@
 		}
 		.large-input{
 			    width: 450px !important;
-			    height: 47px;
+		}
+		.large-input-height{
+				height: 47px;
 		}
 		.datepicker-input{
 			width: 210px;
@@ -63,14 +65,15 @@
 	<form>
 	<div class="row form-inline">
 	
-		<input class="form-control large-input" type="text" name="source" placeholder="Travelling From :">
+		<input class="form-control large-input large-input-height" type="text" name="source" placeholder="Travelling From :">
 	
-		<input class="form-control large-input" type="text" name="dest" placeholder="Your Destination :">
+		<input class="form-control large-input large-input-height" type="text" name="dest" placeholder="Your Destination :">
 	
 	</div>
 
-	<div class="date-div">
-	<input type="text" class="form-control datepicker datepicker-input large-input" placeholder="Travel date :">
+	<div class="date-div form-inline">
+	<input type="text" class="form-control datepicker datepicker-input large-input large-input-height" placeholder="Travel date :">
+	<input type="text" class="form-control large-input-height" placeholder="Seats :">
 	</div>
 	<div class="btn-search">
 		<button type="button" class="btn btn-lg btn-info">Search My Flight!</button>
