@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Book My Prati</title>
+	<title>Flight Search Result</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
+
 	<style type="text/css">
-		
 		.font-size26{
 			font-size: 26px !important;
 		}
 		.card-booking{
 			    margin-bottom: 20px;
     			padding: 25px 25px 25px;
-    			min-height: 312px;
+    			min-height: 100px;
     			width: 100%;
     			background: #2d67b2;
     			position: relative;
-    			max-width: 1000px;
+    			max-width: 1150px;
     			margin: 0 auto;
     			border-radius: 10px 10px 10px 10px;
 		}
@@ -61,34 +61,18 @@
 </nav>
 
 <div class="card-booking">
-
-	<h1 class="heading-main">Book Your Flight Now!</h1>
 	<form>
 	<div class="row form-inline">
 	
-		<input class="form-control large-input large-input-height" type="text" name="source" placeholder="Travelling From :">
+		<input class="form-control large-input-height" type="text" name="source" placeholder="Travelling From :">
 	
-		<input class="form-control large-input large-input-height" type="text" name="dest" placeholder="Your Destination :">
-	
-	</div>
-
-	<div class="date-div form-inline">
-	<input type="text" class="form-control datepicker datepicker-input large-input large-input-height" placeholder="Travel date :">
-	<input type="number" class="form-control large-input-height" placeholder="Seats :" min="1">
-	</div>
-	<div class="btn-search">
+		<input class="form-control large-input-height" type="text" name="dest" placeholder="Your Destination :">
+		<input type="text" class="form-control datepicker datepicker-input large-input-height" placeholder="Travel date :">
+		<input type="number" class="form-control large-input-height" placeholder="Seats :" min="1">
 		<button type="button" class="btn btn-lg btn-info" onclick="window.location='result.html'">Search My Flight!</button>
 	</div>
+	
 	</form>
 </div>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js"></script>
-<script type="text/javascript">
-	$('.datepicker').datepicker({
-    format: 'mm/dd/yyyy',
-    startDate: '-3d'
-});
-</script>
 </body>
 </html>
